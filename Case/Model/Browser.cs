@@ -11,15 +11,15 @@ namespace Case.PageObject
 {
     public class Browser
     {
-        public SearchPage SearchPage { get; private set; }
         public SearchEngine SearchEngine { get; private set; }
         public string SearchURL { get; private set; }
 
-        public Dictionary<SearchEngine, string> searchEngineURLs = new Dictionary<SearchEngine, string>()
+        private readonly Dictionary<SearchEngine, string> searchEngineURLs = new Dictionary<SearchEngine, string>()
         {
-            {SearchEngine.Chrome,"https://www.google.com.tr/search" },
+            {SearchEngine.Google,"https://www.google.com.tr/search" },
             {SearchEngine.Yandex,"https://yandex.com.tr/search" },
         };
+
         public Browser(SearchEngine searchEngine)
         {
             SearchEngine = searchEngine;

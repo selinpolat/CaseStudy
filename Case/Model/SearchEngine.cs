@@ -8,7 +8,7 @@ namespace Case.Model
 {
    public enum SearchEngine
     {
-        Chrome = 0,
+        Google = 0,
         Yandex = 1,
     }
 }

@@ -58,7 +58,7 @@ namespace Case
             webDriver.Manage().Window.Maximize();
             Log("Opened the Chrome Driver and cleaned the cookies");
 
-            Browser browserGoogle = new Browser(SearchEngine.Chrome);
+            Browser browserGoogle = new Browser(SearchEngine.Google);
             SearchPage searchPageGoogle = new SearchPage(webDriver, browserGoogle);
             Log("Browser is created for Google search based on the keyword given");
 
