@@ -24,5 +24,19 @@
 
 ## Test Case 2
 
+Right click on CaseMockApı project then click Run Tests
+
+1- In Set Up attribute server is created via WireMockServer using 9090 port
+
+2-CreateProdutsStub is created GET products endpoint with given example json
+
+3- In Test attribute via ResClient the request is sent to localhost:9090 
+    EXPECTED:It is expected to given exaple_produc.json data
+
+4- Assertion are controlled
+
+5-TearDown terminates the server
+
+
 
 
