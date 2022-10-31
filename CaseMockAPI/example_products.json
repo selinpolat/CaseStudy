@@ -1,0 +1,35 @@
+{
+  "getProducts": [
+    {
+      "id": 1,
+      "title": "Hepsi Home Pasta Tekli Sarkıt Avize Ahşap",
+      "description": "Avize",
+      "price": 110,
+      "isBasketDiscount": true,
+      "basketDiscountPercentage": 4,
+      "rating": 2.19,
+      "stock": 1,
+      "isActive": false,
+      "brand": "Apple",
+      "category": "ipad",
+      "images": [
+        "https://productimages.hepsiburada.net/s/4/500/9655454531634.jpg",
+        "https://productimages.hepsiburada.net/s/58/1100/11339580801074.jpg/format:webp"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Apple iPhone 12 64 GB",
+      "description": "Apple",
+      "price": 15000,
+      "isBasketDiscount": false,
+      "rating": 3.2,
+      "stock": 2000,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": [
+        "https://productimages.hepsiburada.net/s/76/1500/110000018213454.jpg"
+      ]
+    }
+  ]
+}
